@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=	"viewport" content="width=device-width, initial-scale=1">
+<style>
+h1
+{
+text-align:center;
+font-family:"URW Chancery L", cursive;
+background-color:green;
+}
+
+img.book
+{
+width:50%;
+float:right;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.write
+{
+padding:16px;
+font-size:20px;
+
+}
+
+</style>
+</head>
+
+<body>
+<h1>ADD A NEW BOOK</H1>
+<h2 style= 'font-family:"Snell Roundhand", cursive; color:navy;'>Enter the following details:</h2>
+
+<img src="book2.jpeg" style="length:100%;width:45%;float:right">
+
+<form action="">
+<div class="write">
+<label for="bname" ><b>Book name</b></label><br>
+<input type="text" placeholder="enter book name" name="bname" required><br><br>
+
+<label for="auth" ><b>Author</b></label><br>
+<input type="text" placeholder="enter Author's name" name="auth" required><br><br>
+
+<label for="isbn" ><b>ISBN code</b></label><br>
+<input type="text" placeholder="enter ISBN code" name="isbn" required><br><br>
+
+<label for="desc" ><b>Book Description</b></label><br>
+<input type="text" placeholder="enter book Description" name="desc" required><br><br>
+
+<button type="submit"> Add Book </button>
+</div>
+
+</body>
+</html>

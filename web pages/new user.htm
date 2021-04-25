@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=	"viewport" content="width=device-width, initial-scale=1">
+<style>
+h1
+{
+text-align:center;
+font-family:"URW Chancery L", cursive;
+background-color:green;
+}
+
+img.book
+{
+width:50%;
+float:right;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.write
+{
+padding:16px;
+font-size:20px;
+
+}
+
+</style>
+</head>
+
+<body>
+<h1>ADD A NEW USER</H1>
+<h2 style= 'font-family:"Snell Roundhand", cursive; color:navy;'>Enter user details:</h2>
+
+<img src="book2.jpeg" style="length:100%;width:45%;float:right">
+
+<form>
+<div class="write">
+
+    <label for="user"><b>User Type</b></label><br>
+    <input type="text" placeholder="Enter User Type" name="user" required>  <br>
+
+    <label for="email"><b>E-mail</b></label><br>
+    <input type="text" placeholder="Enter E-mail address" name="email" required>  
+  
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="text" placeholder="Enter Password" name="psw" required>
+
+    
+
+    <button type="submit"> Add User </button>
+</div>
+
+</body>
+</html>
